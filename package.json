@@ -1,0 +1,28 @@
+{
+  "name": "arachnid",
+  "version": "1.0.1",
+  "description": "creepy crawler",
+  "main": "arachnid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "natebarber",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbarber/arachnid_crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "spider",
+    "recursive"
+  ],
+  "bugs": {
+    "url": "https://github.com/nathanbarber/arachnid_crawler/issues"
+  },
+  "homepage": "https://github.com/nathanbarber/arachnid_crawler#readme"
+}
