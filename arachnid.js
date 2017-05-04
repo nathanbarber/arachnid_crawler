@@ -2,8 +2,8 @@ var request = require("request");
 var cleaner = require("./cleaner.js");
 
 var links = new Array();
-links.push("https://oscarliang.com/page/2/");
-var restriction = "oscar";
+links.push("http://www.whatever.com");
+var restriction = "whatever";
 
 request({
     uri: links[0],
