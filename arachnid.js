@@ -2,9 +2,9 @@ var request = require("request");
 var cleaner = require("./cleaner.js");
 
 var links = new Array();
-links.push("http://www.whatever.com");
-var restriction = "whatever";
-
+links.push("http://www.whatever.com");          //Initial link
+var restriction = "whatever";                   //Restriction Phrase
+                                                //Change those two...
 request({
     uri: links[0],
 }, function(error, request, response) {
