@@ -12,6 +12,9 @@ request({
 });
 
 function process(error, response, html) {
+    if(links[0] == undefined) {
+        return;
+    }
 
     //DO WHAT YOU WILL WITH THE PAGE
 
