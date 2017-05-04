@@ -10,3 +10,7 @@ The size of the links array usually increases dramatically at first, absorbing n
 
 # Operation
 The two parameters, initial page and restriction phrase are both variables inside 'arachnid.js'. These are the two main values you'll have to play with in order to crawl stuff.
+
+# The restriction phrase
+The purpose of this second field is to limit the results from the crawler. Under most circumstances, you dont want to be crawling www.spaghetti.com and have your spider jump to facebook. To stick with a website, www.spaghetti.com for example, set your restriction phrase to something like 'spaghetti'. Then, the crawler wont jump to a url that deviates from the root. 
+However, if you wish to go apeshit and crawl all over, set the restriction phrase to <code>false</code>. That'll let the genie out of the bottle.
